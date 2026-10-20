@@ -1134,7 +1134,10 @@ section("12. 官方产物契约（DOM 锚点 + 无档位时 select payload 的�
   const UNPACKED_CANDIDATES = [
     "F:/Work Space/DeepSeek Harness/_review/dsh-asar/dsh/node_modules/@deepseek-ai/dsh-client-ui-model-selection/lib/client.js",
   ];
-  const ASAR_CANDIDATES = ["D:/DeepSeekHarness/resources/app.asar"];
+  const ASAR_CANDIDATES = [
+    "D:/DeepSeekHarness/resources/app.asar",
+    "D:/App/deepseek/resources/app.asar",
+  ];
   const INNER_PATH = "dsh/node_modules/@deepseek-ai/dsh-client-ui-model-selection/lib/client.js";
 
   let text = null;

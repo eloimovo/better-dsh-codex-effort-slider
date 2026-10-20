@@ -55,7 +55,7 @@
 
 ## 安装
 
-> 不想 clone：直接下载本仓库 [Releases](https://github.com/Bai-2008/a-better-dsh-codex-effort-slider/releases)
+> 不想 clone：直接下载本仓库 [Releases](https://github.com/eloimovo/better-dsh-codex-effort-slider/releases)
 > 里打包好的 zip（`better-dsh-codex-effort-slider-<version>.zip`）。
 
 三种方式，按省事程度排序：
@@ -65,7 +65,7 @@
 DSH Desktop → **设置 → 插件 → 添加插件**，填三者之一：
 
 - **本地目录路径**（clone 或解开 zip 后那一层目录）
-- **`github:Bai-2008/a-better-dsh-codex-effort-slider`**
+- **`github:eloimovo/better-dsh-codex-effort-slider`**
 - **npm 包名**（走 registry）
 
 安装后**完全退出并重开 DSH Desktop**（宿主在启动时把插件读进内存，只关窗口不够）。
@@ -88,7 +88,7 @@ install.cmd -Uninstall         # 卸载
 
 ```powershell
 dsh plugin --profile tui add link:"<插件的绝对路径>"
-dsh plugin --profile tui add github:Bai-2008/a-better-dsh-codex-effort-slider
+dsh plugin --profile tui add github:eloimovo/better-dsh-codex-effort-slider
 ```
 
 `desktop` 是 Electron 保留 profile，命令行会被直接拒绝：
